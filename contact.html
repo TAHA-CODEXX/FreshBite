@@ -24,22 +24,28 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15350.300078110431!2d-6.853287905265141!3d34.01224627910571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76dc8ecacf46f%3A0xab384f45958696a4!2sLe%20Matsya%20-%20Restaurant%20Rooftop!5e1!3m2!1sen!2sma!4v1762350647857!5m2!1sen!2sma" width="450" height="600" class="mapp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="contact-formule">
-       <input type="text" placeholder="Nom" class="inpts">
-       <input type="text" placeholder="Email" class="inpts">
-       <input type="text" placeholder="Message" class="inpts">
-       <button class="buttonenv">Envoi</button>
+       <input type="text" placeholder="Name" class="inpts" id="nom">
+       <p id="pNom"></p>
+       <input type="text" placeholder="Email" class="inpts" id="email">
+       <p id="pEmail"></p>
+       <input type="text" placeholder="Message" class="inpts" id="message">
+       <p id="pMessage"></p>
+       <button class="buttonenv" id="envoibtn">Envoi</button>
+       <div class="cnfrm" id="cnfrm">
+        <img src="images/customer.png" alt="">
+        <p>Thank you! Your submission has been received successfully.</p>
+       </div>
     </div>
 </div>
   <section class="footer">
    <div class="followUs">
     <h3>Follow Us</h3>
-    <img src="images/facebook.png" alt="Facebook">
-    <img src="images/instagram.png" alt="Instagram">
-    <img src="images/twitter.png" alt="Twitter">
+    <a href=""><img src="images/facebook.png" alt="Facebook" class="followUsimg"></a>
+    <a href=""><img src="images/instagram.png" alt="Instagram" class="followUsimg"></a>
   </div>
   <div class="contactUs">
     <h3>Contact</h3>
-    <p>📍 Casablanca, Morocco</p>
+    <p>📍 Rabat, Morocco</p>
     <p>📞 +212 600 000 000</p>
   </div>
 
@@ -49,5 +55,6 @@
     <p>Sunday: Closed</p>
   </div>
   </section>
+  <script src="freshbite.js"></script>
 </body>
 </html>
